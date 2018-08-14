@@ -14,6 +14,7 @@
 \colorlet{header}{gray}
 \colorlet{textcolor}{gray}
 \colorlet{headercolor}{gray}
+\colorlet{headercolor1}{lightgray}
 
 %fonts
 \RequirePackage[quiet]{fontspec}
@@ -41,7 +42,7 @@
       {\bodyfont #1}{\bodyfont \ #2}
     };
     \node [anchor=north] at (name.south) {%
-      \fontsize{14pt}{24pt}\color{header}%
+      \fontsize{14pt}{24pt}\color{gray}%
       \thinfont #3%
     };
   \end{tikzpicture}
@@ -70,11 +71,12 @@
 \renewcommand{\section}[1]{
   \par\vspace{\parskip}
   {%
-    \LARGE\headingfont\color{headercolor}%
+    \LARGE\headingfont\color{header}%
     \@sectioncolor #1%
   }
   \par\vspace{\parskip}
 }
+
 
 
 % no number of pages etc
