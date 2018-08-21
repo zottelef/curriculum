@@ -34,6 +34,8 @@
   \color{white}%
 }
 
+\RequirePackage{parskip}
+
 \newcommand{\header}[3]{%
   \begin{tikzpicture}[remember picture,overlay]
     \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=4cm] (box) at (current page.north){};
@@ -46,22 +48,23 @@
       \thinfont #3%
     };
   \end{tikzpicture}
-  \vspace{2.5cm}
-  \vspace{-2\parskip}
+  \vspace{2.0cm}
+  \vspace{-1\parskip}
 }
 
-\RequirePackage{parskip}
+
+
 \newcounter{colorCounter}
 \def\@sectioncolor#1#2#3{%
   {%
     \color{%
       \ifcase\value{colorCounter}%
         gray\or%
-        red\or%
-        orange\or%
-        green\or%
-        purple\or%
-        brown\else%
+        gray\or%
+        gray\or%
+        gray\or%
+        gray\or%
+        gray\else%
         headercolor\fi%
     } #1#2#3%
   }%
@@ -78,11 +81,165 @@
 }
 
 
+%%%%%%%%%%%%%%%%%%%%
+% List environment %
+%%%%%%%%%%%%%%%%%%%%
+
+\setlength{\tabcolsep}{0pt}
+
+
+\newenvironment{entrylist}{%
+  \begin{itemize}[leftmargin=1in]
+}{%
+  \end{itemize}
+}
+\renewcommand{\bfseries}{\headingfont\color{headercolor}}
+\newcommand{\entry}[4]{%
+  \item[#1]
+    \textbf{#2}%
+    \hfill%
+    {\\\footnotesize\addfontfeature{Color=lightgray} #3}\\%
+    #4\vspace{3 pt}%
+}
+
+
+%%%%%%%%%%%%%%%%
+% Bibliography %
+%%%%%%%%%%%%%%%%
+\RequirePackage{csquotes}
+\RequirePackage[style=verbose, maxnames=99, sorting=ydnt]{biblatex}
+
+\DeclareFieldFormat[article]{title}{#1\par}
+\DeclareFieldFormat[inproceedings]{title}{#1\par}
+\DeclareFieldFormat[misc]{title}{#1\par}
+\DeclareFieldFormat[report]{title}{#1\par}
+
+\DeclareBibliographyDriver{article}{%
+    \printnames{author}
+    \newblock%
+    {
+        \\
+        \itshape
+        \printfield{title}%
+    }
+    \par
+    \newblock%
+    {%
+    \footnotesize\addfontfeature{Color=lightgray}\itshape%
+    \usebibmacro{journal+issuetitle}%
+    \setunit{\space}%
+    \printfield{pages}%
+    \newunit%
+    \printlist{publisher}%
+    \setunit*{\addcomma\space}%
+    \printfield{year}%
+    \newunit%
+  }
+  \par\vspace{0.3\baselineskip}
+}
+
+\DeclareBibliographyDriver{inproceedings}{%
+  \printfield{title}%
+  \newblock%
+  \printnames{author}%
+  \par%
+  \newblock%
+  {%
+    \footnotesize\addfontfeature{Color=lightgray}%
+    \printfield{booktitle}%
+    \setunit{\addcomma\space}%
+    \printfield{volume}%
+    \setunit{\addcomma\space}%
+    \printfield{pages}%
+    \setunit{\addcomma\space}%
+    \printfield{year}%
+    \setunit{\addcomma\space}%
+    \printlist{location}%
+    \newunit%
+  }
+  \par\vspace{0.3\baselineskip}
+}
+
+\DeclareBibliographyDriver{misc}{%
+  \printfield{title}%
+  \newblock%
+  \printnames{author}%
+  \par%
+  \newblock%
+  {%
+    \footnotesize\addfontfeature{Color=lightgray}\itshape%
+    \printfield{booktitle}%
+    \setunit*{\addcomma\space}%
+    \printfield{note}%
+    \setunit*{\addcomma\space}%
+    \printfield{year}%
+    \setunit{\addcomma\space}%
+    \printlist{location}%
+    \newunit%
+  }
+  \par\vspace{0.3\baselineskip}
+}
+
+\DeclareBibliographyDriver{report}{%
+  \printfield{title}%
+  \newblock%
+  \printnames{author}%
+  \par%
+  \newblock%
+  {%
+    \footnotesize\addfontfeature{Color=lightgray}\itshape%
+    \printfield{type}%
+    \setunit{\space}%
+    \printfield{number}%
+    \setunit{\addcomma\space}%
+    \printfield{year}%
+    \newunit%
+  }
+  \par\vspace{0.3\baselineskip}
+}
+
+
+\newbibmacro{name:newformat}{%
+   \namepartfamily  % #1->\namepartfamily, #2->\namepartfamilyi
+   \namepartgiven  % #3->\namepartgiven,  #4->\namepartgiveni
+   [prefix: \namepartprefix] % #5->\namepartprefix, #6->\namepartprefixi
+   [suffix: \namepartsuffix] % #7->\namepartsuffix, #8->\namepartsuffixi
+   }
+
+\DeclareNameFormat{newformat}{%
+  \nameparts{#1}% split the name data, will not be necessary in future versions
+  \usebibmacro{name:newformat}%
+  \usebibmacro{name:andothers}%
+}
+
+
+% \DeclareNameFormat{author}{%
+%   \small\addfontfeature{Color=lightgray}%
+%   \ifblank{#3}{}{#3\space}#1%
+%   \ifthenelse{\value{listcount}<\value{liststop}}
+%     {\addcomma\space}
+%     {}%
+% }
+
+\newcommand{\printbibsection}[2]{
+  \begin{refsection}
+    \nocite{*}
+    \printbibliography[sorting=chronological, type={#1}, title={#2}, heading=subbibliography]
+  \end{refsection}
+}
+
+\DeclareSortingScheme{chronological}{
+  \sort[direction=descending]{\field{year}}
+  \sort[direction=descending]{\field{month}}
+}
+
 
 % no number of pages etc
 \pagestyle{empty}
 
-\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
-\RequirePackage{microtype}
+
 \RequirePackage{enumitem}
+\RequirePackage[left=2.5cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
+\RequirePackage{microtype}
+
 

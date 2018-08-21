@@ -1,0 +1,49 @@
+[0] Config.pm:302> INFO - This is Biber 2.9
+[0] Config.pm:305> INFO - Logfile is 'curriculum_ita.blg'
+[31] biber:313> INFO - === mar ago 21, 2018, 18:34:52
+[49] Biber.pm:371> INFO - Reading 'curriculum_ita.bcf'
+[111] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[111] Biber.pm:854> INFO - Using all citekeys in bib section 1
+[111] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[111] Biber.pm:854> INFO - Using all citekeys in bib section 2
+[111] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[111] Biber.pm:854> INFO - Using all citekeys in bib section 3
+[112] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[112] Biber.pm:854> INFO - Using all citekeys in bib section 4
+[112] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[112] Biber.pm:854> INFO - Using all citekeys in bib section 5
+[112] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[169] Biber.pm:3981> INFO - Processing section 1
+[179] Biber.pm:4154> INFO - Looking for bibtex format file 'curriculum.bib' for section 1
+[181] bibtex.pm:1468> INFO - LaTeX decoding ...
+[223] bibtex.pm:1294> INFO - Found BibTeX data source 'curriculum.bib'
+[561] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[561] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[561] Biber.pm:3809> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'it-IT'
+[561] Biber.pm:3815> INFO - No sort tailoring available for locale 'it-IT'
+[605] Biber.pm:3981> INFO - Processing section 2
+[606] Biber.pm:4154> INFO - Looking for bibtex format file 'curriculum.bib' for section 2
+[11533] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[11533] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[11534] Biber.pm:3809> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'it-IT'
+[11534] Biber.pm:3815> INFO - No sort tailoring available for locale 'it-IT'
+[11574] Biber.pm:3981> INFO - Processing section 3
+[11574] Biber.pm:4154> INFO - Looking for bibtex format file 'curriculum.bib' for section 3
+[12112] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[12113] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[12113] Biber.pm:3809> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'it-IT'
+[12113] Biber.pm:3815> INFO - No sort tailoring available for locale 'it-IT'
+[12153] Biber.pm:3981> INFO - Processing section 4
+[12153] Biber.pm:4154> INFO - Looking for bibtex format file 'curriculum.bib' for section 4
+[12469] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[12469] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[12469] Biber.pm:3809> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'it-IT'
+[12469] Biber.pm:3815> INFO - No sort tailoring available for locale 'it-IT'
+[12511] Biber.pm:3981> INFO - Processing section 5
+[12512] Biber.pm:4154> INFO - Looking for bibtex format file 'curriculum.bib' for section 5
+[12828] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[12828] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[12828] Biber.pm:3809> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'it-IT'
+[12829] Biber.pm:3815> INFO - No sort tailoring available for locale 'it-IT'
+[12868] bbl.pm:617> INFO - Writing 'curriculum_ita.bbl' with encoding 'UTF-8'
+[12934] bbl.pm:720> INFO - Output to curriculum_ita.bbl
