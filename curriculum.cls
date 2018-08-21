@@ -132,7 +132,7 @@
     \newunit%
     \printlist{publisher}%
     \setunit*{\addcomma\space}%
-    \printfield{year}%
+    %\printfield{year}%
     \newunit%
   }
   \par\vspace{0.3\baselineskip}
@@ -228,7 +228,7 @@
   \end{refsection}
 }
 
-\DeclareSortingScheme{chronological}{
+\DeclareSortingTemplate{chronological}{
   \sort[direction=descending]{\field{year}}
   \sort[direction=descending]{\field{month}}
 }
