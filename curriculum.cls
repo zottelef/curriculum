@@ -1,6 +1,9 @@
 \ProvidesClass{curriculum}
 \NeedsTeXFormat{LaTeX2e}
-\LoadClass{article}
+\LoadClass[11pt]{article}
+
+\setlength\paperheight {297mm}
+\setlength\paperwidth {210mm}
 
 \RequirePackage[super]{nth}
 
@@ -204,22 +207,13 @@
    \namepartgiven  % #3->\namepartgiven,  #4->\namepartgiveni
    [prefix: \namepartprefix] % #5->\namepartprefix, #6->\namepartprefixi
    [suffix: \namepartsuffix] % #7->\namepartsuffix, #8->\namepartsuffixi
-   }
+}
 
 \DeclareNameFormat{newformat}{%
   \nameparts{#1}% split the name data, will not be necessary in future versions
   \usebibmacro{name:newformat}%
   \usebibmacro{name:andothers}%
 }
-
-
-% \DeclareNameFormat{author}{%
-%   \small\addfontfeature{Color=lightgray}%
-%   \ifblank{#3}{}{#3\space}#1%
-%   \ifthenelse{\value{listcount}<\value{liststop}}
-%     {\addcomma\space}
-%     {}%
-% }
 
 \newcommand{\printbibsection}[2]{
   \begin{refsection}
@@ -234,12 +228,12 @@
 }
 
 
-% no number of pages etc
-\pagestyle{empty}
-
-
 \RequirePackage{enumitem}
-\RequirePackage[left=2.5cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
+\RequirePackage[left=2.5cm,top=2cm,right=1.5cm,bottom=2.5cm]{geometry}
 \RequirePackage{microtype}
+\RequirePackage{booktabs}
+\RequirePackage{tabularx}
+\RequirePackage{caption}
+\RequirePackage{perpage}
 
 
