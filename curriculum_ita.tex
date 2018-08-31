@@ -10,8 +10,17 @@
 \setlength{\headheight}{14pt}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
+\cfoot{\footnotesize \addfontfeature{Color=lightgray} Autorizzo il trattamento dei miei dati personali ai sensi del Dlgs 196 del 30 giugno 2003 e dell’art. 13 GDPR (Regolamento UE 2016/679) ai fini della ricerca e selezione del personale}
 
-\cfoot{\footnotesize Autorizzo il trattamento dei miei dati personali ai sensi del Dlgs 196 del 30 giugno 2003 e dell’art. 13 GDPR (Regolamento UE 2016/679) ai fini della ricerca e selezione del personale}
+\renewcommand*{\mkbibnamegiven}[1]{%
+  \ifitemannotation{highlight}
+    {\textbf{#1}}
+    {#1}}
+
+\renewcommand*{\mkbibnamefamily}[1]{%
+  \ifitemannotation{highlight}
+    {\textbf{#1}}
+    {#1}}
 
 \begin{document}
   \header{Fabio}{Zottele} {tecnologo sperimentatore di quarto livello}
@@ -54,9 +63,9 @@
     \entry 
         {2006--Oggi}{Fondazione Edmund Mach} {San Michele all'Adige, IT}{\emph{Contrattista a progetto e tecnologo di IV livello}\hfill\vspace{3pt}\\
         Progetto e realizzo strumenti a supporto della gestione dell'acqua per l'irrigazione dei vigneti e dei frutteti trentini sviluppando software che stimano nello spazio e nel tempo il contenuto d'acqua nel suolo.
-        \\Negli anni ho approfondito le tecniche di analisi statistica e geostatistica nell'ambito della meteorologia agraria. Ho sviluppato numerosi webGIS e, più recentemente, \textit{Rich Internet Applications} per la pubblicazione online delle elaborationi effettuate nell'ambito delle attività del mio gruppo di lavoro. 
+        \\Negli anni ho approfondito le tecniche di analisi statistica e geostatistica nell'ambito della meteorologia agraria. Ho sviluppato numerosi webGIS e, più recentemente, \textit{Rich Internet Applications} per la pubblicazione online delle elaborazioni effettuate nell'ambito delle attività del mio gruppo di lavoro. 
         \\Queste competenze mi hanno permesso di collaborare con numerosi ricercatori e tecnologi della Fondazione Mach su numerosi progetti ed attività: per prevedere l'impatto del cambiamento climatico sulla fenologia della betulla e sulla diffusione di patologie nelle foreste delle Alpi, per lo sviluppo di modelli diffusione spazio-temporale del danno causato da specie aliene di insetti nei vigneti del Trentino al fine di suggerire interventi agronomici mirati e ridurre conseguentemente l'utilizzo di biocidi.
-        \\Sono stato co-autore e docente al \textit{Corso di Sistemi e Tecnologie Informative Geografiche} per il Corso di Alta formazione per Tecnico del Verde, al corso \textit{Programmare con R} per l'associazione Italiana di Agrometeorologia, ai due seminari \textit{Workshop di R} per l'Unità di ricerca per il monitoraggio e la pianificazione forestale di CREA; al corso \textit{R: Spatial data structures and geostatistics} per Ricerca sul Sistema Energetico (RSE SpA); ed al corso "Generalità sul clima; Microclima e Macroclima; elementi climatici: luce, temperatura, idrometeore, vento; strumenti di rilevazione e valutazione degli elemnti climatici; Banche dati: rilevazioni e informazioni georeferenziate" per il Collegio dei Periti Agrari e dei Periti agrari Laureati} 
+        \\Sono stato co-autore e docente al \textit{Corso di Sistemi e Tecnologie Informative Geografiche} per il Corso di Alta formazione per Tecnico del Verde, al corso \textit{Programmare con R} per l'associazione Italiana di Agrometeorologia, ai due seminari \textit{Workshop di R} per l'Unità di ricerca per il monitoraggio e la pianificazione forestale di CREA; al corso \textit{R: Spatial data structures and geostatistics} per Ricerca sul Sistema Energetico (RSE SpA); ed al corso \textit{Generalità sul clima; Microclima e Macroclima; elementi climatici: luce, temperatura, idrometeore, vento; strumenti di rilevazione e valutazione degli elementi climatici; Banche dati: rilevazioni e informazioni georeferenziate} per il Collegio dei Periti Agrari e dei Periti agrari Laureati.}
     \end{entrylist}
     
     \begin{entrylist}
@@ -85,7 +94,7 @@
         \begin{table}[h]
         \centering
         \fontsize{8}{9}\selectfont
-            \begin{tabular}{lccccccccccc}%{0.8*\textwidth}{@{}lccccccccccc@{}} 
+            \begin{tabular}{lccccccccccc}
             \toprule
 \multicolumn{2}{c}{} & \multicolumn{4}{c}{\textbf{Comprensione}}                 & \multicolumn{4}{c}{\textbf{Parlato}}                              & \textbf{Scritto} &\\
 \multicolumn{2}{c}{} & \multicolumn{2}{c}{Ascolto} & \multicolumn{2}{c}{Lettura} & \multicolumn{2}{c}{Interazione} & \multicolumn{2}{c}{Produzione orale} & &\\
@@ -211,7 +220,7 @@
         \item[Indirizzo:] Via Guardini, 63 - 38121 Trento (IT)
         \item[Telefono:] 0461~615395
         \item[Nazionalità:] italiana
-        \item[Madrelinga:] italiano
+        \item[Madrelingua:] italiano
     \end{description}
     
     \section{Pubblicazioni}
@@ -247,6 +256,6 @@
     \end{refsection}    
     
     %https://www.researchgate.net/scientific-contributions/10134513_Paolo_Zatelli
-    %https://openpub.fmach.it/browse?type=author&authority=rp00666&authority_lang=*#.W31xdxh9hhH
+    %https://iris.unitn.it/browse?type=author&authority=rp09824&authority_lang=it#.W4gPQRh9hhE
     
 \end{document}
