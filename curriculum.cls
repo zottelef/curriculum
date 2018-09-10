@@ -111,7 +111,7 @@
 %%%%%%%%%%%%%%%%
 \RequirePackage{csquotes}
 \RequirePackage[style=verbose, maxnames=99, sorting=ydnt]{biblatex}
-
+\renewcommand*{\revsdnamepunct}{}
 \DeclareFieldFormat[article]{title}{#1\par}
 \DeclareFieldFormat[inproceedings]{title}{#1\par}
 \DeclareFieldFormat[incollection]{title}{#1\par}
