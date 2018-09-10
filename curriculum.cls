@@ -1,6 +1,6 @@
 \ProvidesClass{curriculum}
 \NeedsTeXFormat{LaTeX2e}
-\LoadClass[11pt, twoside]{article}
+\LoadClass[11pt]{article}
 
 \setlength\paperheight {297mm}
 \setlength\paperwidth {210mm}
@@ -253,7 +253,7 @@
 
 
 \RequirePackage{enumitem}
-\RequirePackage[left=2.5cm,top=2cm,right=1.5cm,bottom=2.5cm]{geometry}
+\RequirePackage[left=2.5cm,top=2.5cm,right=2.5cm,bottom=2.5cm]{geometry}
 \RequirePackage{microtype}
 \RequirePackage{booktabs}
 \RequirePackage{tabularx}
