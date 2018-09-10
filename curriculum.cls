@@ -1,6 +1,6 @@
 \ProvidesClass{curriculum}
 \NeedsTeXFormat{LaTeX2e}
-\LoadClass[11pt]{article}
+\LoadClass[11pt, twoside]{article}
 
 \setlength\paperheight {297mm}
 \setlength\paperwidth {210mm}
@@ -114,8 +114,9 @@
 
 \DeclareFieldFormat[article]{title}{#1\par}
 \DeclareFieldFormat[inproceedings]{title}{#1\par}
-\DeclareFieldFormat[misc]{title}{#1\par}
-\DeclareFieldFormat[report]{title}{#1\par}
+\DeclareFieldFormat[incollection]{title}{#1\par}
+%\DeclareFieldFormat[misc]{title}{#1\par}
+%\DeclareFieldFormat[report]{title}{#1\par}
 
 \DeclareBibliographyDriver{article}{%
     \printnames{author}
@@ -163,18 +164,41 @@
   \par\vspace{0.3\baselineskip}
 }
 
-\DeclareBibliographyDriver{misc}{%
+% \DeclareBibliographyDriver{misc}{%
+%   \printfield{title}%
+%   \newblock%
+%   \printnames{author}%
+%   \par%
+%   \newblock%
+%   {%
+%     \footnotesize\addfontfeature{Color=lightgray}\itshape%
+%     \printfield{booktitle}%
+%     \setunit*{\addcomma\space}%
+%     \printfield{note}%
+%     \setunit*{\addcomma\space}%
+%     \printfield{year}%
+%     \setunit{\addcomma\space}%
+%     \printlist{location}%
+%     \newunit%
+%   }
+%   \par\vspace{0.3\baselineskip}
+% }
+
+
+\DeclareBibliographyDriver{incollection}{%
   \printfield{title}%
   \newblock%
   \printnames{author}%
   \par%
   \newblock%
   {%
-    \footnotesize\addfontfeature{Color=lightgray}\itshape%
+    \footnotesize\addfontfeature{Color=lightgray}%
     \printfield{booktitle}%
-    \setunit*{\addcomma\space}%
-    \printfield{note}%
-    \setunit*{\addcomma\space}%
+    \setunit{\addcomma\space}%
+    \printfield{volume}%
+    \setunit{\addcomma\space}%
+    \printfield{pages}%
+    \setunit{\addcomma\space}%
     \printfield{year}%
     \setunit{\addcomma\space}%
     \printlist{location}%
@@ -183,23 +207,23 @@
   \par\vspace{0.3\baselineskip}
 }
 
-\DeclareBibliographyDriver{report}{%
-  \printfield{title}%
-  \newblock%
-  \printnames{author}%
-  \par%
-  \newblock%
-  {%
-    \footnotesize\addfontfeature{Color=lightgray}\itshape%
-    \printfield{type}%
-    \setunit{\space}%
-    \printfield{number}%
-    \setunit{\addcomma\space}%
-    \printfield{year}%
-    \newunit%
-  }
-  \par\vspace{0.3\baselineskip}
-}
+% \DeclareBibliographyDriver{report}{%
+%   \printfield{title}%
+%   \newblock%
+%   \printnames{author}%
+%   \par%
+%   \newblock%
+%   {%
+%     \footnotesize\addfontfeature{Color=lightgray}\itshape%
+%     \printfield{type}%
+%     \setunit{\space}%
+%     \printfield{number}%
+%     \setunit{\addcomma\space}%
+%     \printfield{year}%
+%     \newunit%
+%   }
+%   \par\vspace{0.3\baselineskip}
+% }
 
 
 \newbibmacro{name:newformat}{%
@@ -235,5 +259,5 @@
 \RequirePackage{tabularx}
 \RequirePackage{caption}
 \RequirePackage{perpage}
-
+\RequirePackage{hologo}
 
