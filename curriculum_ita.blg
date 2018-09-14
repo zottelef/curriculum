@@ -1,49 +1,49 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [0] Config.pm:305> INFO - Logfile is 'curriculum_ita.blg'
-[37] biber:313> INFO - === Tue Aug 21, 2018, 20:44:25
-[111] Biber.pm:371> INFO - Reading 'curriculum_ita.bcf'
-[172] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
-[172] Biber.pm:854> INFO - Using all citekeys in bib section 1
-[172] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
-[173] Biber.pm:854> INFO - Using all citekeys in bib section 2
-[173] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
-[173] Biber.pm:854> INFO - Using all citekeys in bib section 3
-[173] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
-[173] Biber.pm:854> INFO - Using all citekeys in bib section 4
-[173] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
-[173] Biber.pm:854> INFO - Using all citekeys in bib section 5
-[173] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
-[215] Biber.pm:3976> INFO - Processing section 1
-[227] Biber.pm:4136> INFO - Looking for bibtex format file 'curriculum.bib' for section 1
-[229] bibtex.pm:1500> INFO - LaTeX decoding ...
-[289] bibtex.pm:1316> INFO - Found BibTeX data source 'curriculum.bib'
-[587] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[588] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
-[588] Biber.pm:3804> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'it-IT'
-[588] Biber.pm:3810> INFO - No sort tailoring available for locale 'it-IT'
-[629] Biber.pm:3976> INFO - Processing section 2
-[630] Biber.pm:4136> INFO - Looking for bibtex format file 'curriculum.bib' for section 2
-[889] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[889] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
-[889] Biber.pm:3804> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'it-IT'
-[889] Biber.pm:3810> INFO - No sort tailoring available for locale 'it-IT'
-[927] Biber.pm:3976> INFO - Processing section 3
-[927] Biber.pm:4136> INFO - Looking for bibtex format file 'curriculum.bib' for section 3
-[1184] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1184] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1184] Biber.pm:3804> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'it-IT'
-[1184] Biber.pm:3810> INFO - No sort tailoring available for locale 'it-IT'
-[1223] Biber.pm:3976> INFO - Processing section 4
-[1223] Biber.pm:4136> INFO - Looking for bibtex format file 'curriculum.bib' for section 4
-[1489] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1489] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1489] Biber.pm:3804> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'it-IT'
-[1490] Biber.pm:3810> INFO - No sort tailoring available for locale 'it-IT'
-[1528] Biber.pm:3976> INFO - Processing section 5
-[1528] Biber.pm:4136> INFO - Looking for bibtex format file 'curriculum.bib' for section 5
-[1787] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1787] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1787] Biber.pm:3804> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'it-IT'
-[1787] Biber.pm:3810> INFO - No sort tailoring available for locale 'it-IT'
-[1824] bbl.pm:617> INFO - Writing 'curriculum_ita.bbl' with encoding 'UTF-8'
-[1894] bbl.pm:720> INFO - Output to curriculum_ita.bbl
+[31] biber:313> INFO - === Tue Aug 21, 2018, 22:13:30
+[48] Biber.pm:371> INFO - Reading 'curriculum_ita.bcf'
+[106] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[107] Biber.pm:854> INFO - Using all citekeys in bib section 1
+[107] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[107] Biber.pm:854> INFO - Using all citekeys in bib section 2
+[107] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[107] Biber.pm:854> INFO - Using all citekeys in bib section 3
+[107] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[107] Biber.pm:854> INFO - Using all citekeys in bib section 4
+[107] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[107] Biber.pm:854> INFO - Using all citekeys in bib section 5
+[107] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[147] Biber.pm:3976> INFO - Processing section 1
+[155] Biber.pm:4136> INFO - Looking for bibtex format file 'curriculum.bib' for section 1
+[157] bibtex.pm:1500> INFO - LaTeX decoding ...
+[211] bibtex.pm:1316> INFO - Found BibTeX data source 'curriculum.bib'
+[523] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[523] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[523] Biber.pm:3804> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'it-IT'
+[523] Biber.pm:3810> INFO - No sort tailoring available for locale 'it-IT'
+[571] Biber.pm:3976> INFO - Processing section 2
+[571] Biber.pm:4136> INFO - Looking for bibtex format file 'curriculum.bib' for section 2
+[876] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[877] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[877] Biber.pm:3804> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'it-IT'
+[877] Biber.pm:3810> INFO - No sort tailoring available for locale 'it-IT'
+[921] Biber.pm:3976> INFO - Processing section 3
+[921] Biber.pm:4136> INFO - Looking for bibtex format file 'curriculum.bib' for section 3
+[1224] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1225] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1225] Biber.pm:3804> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'it-IT'
+[1225] Biber.pm:3810> INFO - No sort tailoring available for locale 'it-IT'
+[1269] Biber.pm:3976> INFO - Processing section 4
+[1269] Biber.pm:4136> INFO - Looking for bibtex format file 'curriculum.bib' for section 4
+[1569] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1569] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1569] Biber.pm:3804> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'it-IT'
+[1569] Biber.pm:3810> INFO - No sort tailoring available for locale 'it-IT'
+[1612] Biber.pm:3976> INFO - Processing section 5
+[1613] Biber.pm:4136> INFO - Looking for bibtex format file 'curriculum.bib' for section 5
+[1917] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1917] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1918] Biber.pm:3804> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'it-IT'
+[1918] Biber.pm:3810> INFO - No sort tailoring available for locale 'it-IT'
+[1961] bbl.pm:617> INFO - Writing 'curriculum_ita.bbl' with encoding 'UTF-8'
+[2041] bbl.pm:720> INFO - Output to curriculum_ita.bbl

@@ -19,6 +19,202 @@
 
 \refsection{1}
   \datalist[entry]{ydnt/global//global/global}
+    \entry{DronItaly_2018_2}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=573310c2d579144f0b9d634cdad62b83}{%
+           family={Crocetta},
+           familyi={C\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=aa712c6344e1a575ed168ca7734c96f9}{%
+           family={Scommegna},
+           familyi={S\bibinitperiod},
+           given={Melissa\bibnamedelima (2018)},
+           giveni={M\bibinitperiod\bibinitdelim (\bibinitperiod}}}%
+      }
+      \strng{namehash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{fullhash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{bibnamehash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{authorbibnamehash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{authornamehash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{authorfullhash}{868aaf3c180350c23f98deda0644ab7d}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{DronItaly, Milano 23-34 marzo 2018}}
+      \field{month}{3}
+      \field{title}{{Droni e TreeClimbing per il monitoraggio degli alberi in ambito urbano}}
+      \field{year}{2018}
+    \endentry
+    \entry{DronItaly_2018_1}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=d9608a5a06911bf553a074ac502b9821}{%
+           family={Scandella},
+           familyi={S\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=aa712c6344e1a575ed168ca7734c96f9}{%
+           family={Scommegna},
+           familyi={S\bibinitperiod},
+           given={Melissa\bibnamedelima (2018)},
+           giveni={M\bibinitperiod\bibinitdelim (\bibinitperiod}}}%
+      }
+      \strng{namehash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{fullhash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{bibnamehash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{authorbibnamehash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{authornamehash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{authorfullhash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{DronItaly, Milano 23-34 marzo 2018}}
+      \field{month}{3}
+      \field{title}{{Rilievo Aerofotogrammetrico del Parco della Fondazione Mach}}
+      \field{year}{2018}
+    \endentry
+    \entry{CERVIM_2018}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d9608a5a06911bf553a074ac502b9821}{%
+           family={Scandella},
+           familyi={S\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=841e979583cbbd1fbe7950a9f88d47cf}{%
+           family={Bucci},
+           familyi={B\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+        {{hash=be3a3422024775100e14cd99dc71a821}{%
+           family={Nabacino},
+           familyi={N\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=06000ec541f8b1e68932a122b169bd5b}{%
+           family={Scommegna},
+           familyi={S\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{fullhash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{bibnamehash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{authorbibnamehash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{authornamehash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{authorfullhash}{1640c8fc3600d0f734107025a37dd170}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 5th International Congress on Mountain and Steep Slope Viticulture}
+      \field{month}{4}
+      \field{title}{Surveying the development of the steep-slope, terraced and mountainous viticultural landscape by using unmanned aerial vehicles: a costs {\&} benefits analysis}
+      \field{year}{2018}
+      \field{pages}{4\bibrangedash 8}
+      \range{pages}{5}
+    \endentry
+    \entry{VVQ_2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d9608a5a06911bf553a074ac502b9821}{%
+           family={Scandella},
+           familyi={S\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d0684824ea40093023b0901e8fc6f2bb}{%
+           family={Bucci},
+           familyi={B\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod},
+           suffix={Davide\bibnamedelimb amd\bibnamedelima Scommegna},
+           suffixi={D\bibinitperiod\bibinitdelim a\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{fullhash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{bibnamehash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{authorbibnamehash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{authornamehash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{authorfullhash}{2b876b46fd6bf648fc464a690adfce35}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{{Edagricole-Tecniche nuove}}
+      \field{journaltitle}{VVQ vigne, vini {\&} qualità}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{{DRONHERO. Droni alla ricerca del capitale paesaggistico trentino}}
+      \field{volume}{1}
+      \field{year}{2018}
+      \field{pages}{46\bibrangedash 48}
+      \range{pages}{3}
+      \keyw{divulgative}
+    \endentry
+    \entry{AGRIACMA_2018}{article}{}
+      \name{author}{5}{}{%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=06000ec541f8b1e68932a122b169bd5b}{%
+           family={Scommegna},
+           familyi={S\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=61f8d6be88f2263652222e31a19deb6d}{%
+           family={Scanedella},
+           familyi={S\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=573310c2d579144f0b9d634cdad62b83}{%
+           family={Crocetta},
+           familyi={C\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=be3a3422024775100e14cd99dc71a821}{%
+           family={Nabacino},
+           familyi={N\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{fullhash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{bibnamehash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{authorbibnamehash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{authornamehash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{authorfullhash}{f4644ed9ea43a5707a787667332367ea}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{AGRIACMA: 9th Fiera specializzata - Macchine Agricole di Montagna. Riva del Garda}}
+      \field{month}{3}
+      \field{title}{{Droni ed Agricoltura: esperienze Formative ed esperienze Tecniche}}
+      \field{year}{2018}
+      \keyw{divulgative}
+    \endentry
     \entry{sensors2017}{article}{}
       \name{author}{3}{}{%
         {{hash=3da5c28a0908be91f6fb5d236bf29904}{%
@@ -57,6 +253,55 @@
       \verb{doi}
       \verb 10.3390/s17020404
       \endverb
+    \endentry
+    \entry{TT_2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=68fdb833d1cef70c462b548f0c0e0455}{%
+           family={Cristofolini},
+           familyi={C\bibinitperiod},
+           given={Fabiana},
+           giveni={F\bibinitperiod}}}%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=16eb4e00c871e3f36f00b9dcbbab1e70}{%
+           family={Salvadori},
+           familyi={S\bibinitperiod},
+           given={Maurizio},
+           giveni={M\bibinitperiod}}}%
+        {{hash=179730a4e382f5e4fc2376fed9561c1b}{%
+           family={Zorzi},
+           familyi={Z\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=92c1f97fc2b575f868eb707d6ef87736}{%
+           family={Gottardini},
+           familyi={G\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{fullhash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{bibnamehash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{authorbibnamehash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{authornamehash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{authorfullhash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{{Edagricole-Tecniche nuove}}
+      \field{journaltitle}{Terra Trentina}
+      \field{month}{9}
+      \field{number}{2}
+      \field{title}{{I pollini, sentinelle dei cambiamenti climatici}}
+      \field{volume}{62}
+      \field{year}{2017}
+      \field{pages}{75}
+      \range{pages}{1}
+      \keyw{divulgative}
     \endentry
     \entry{CERVIM2017_poster}{inproceedings}{}
       \name{author}{2}{}{%
@@ -1487,6 +1732,202 @@
 
 \refsection{2}
   \datalist[entry]{ydnt/global//global/global}
+    \entry{DronItaly_2018_2}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=573310c2d579144f0b9d634cdad62b83}{%
+           family={Crocetta},
+           familyi={C\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=aa712c6344e1a575ed168ca7734c96f9}{%
+           family={Scommegna},
+           familyi={S\bibinitperiod},
+           given={Melissa\bibnamedelima (2018)},
+           giveni={M\bibinitperiod\bibinitdelim (\bibinitperiod}}}%
+      }
+      \strng{namehash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{fullhash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{bibnamehash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{authorbibnamehash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{authornamehash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{authorfullhash}{868aaf3c180350c23f98deda0644ab7d}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{DronItaly, Milano 23-34 marzo 2018}}
+      \field{month}{3}
+      \field{title}{{Droni e TreeClimbing per il monitoraggio degli alberi in ambito urbano}}
+      \field{year}{2018}
+    \endentry
+    \entry{DronItaly_2018_1}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=d9608a5a06911bf553a074ac502b9821}{%
+           family={Scandella},
+           familyi={S\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=aa712c6344e1a575ed168ca7734c96f9}{%
+           family={Scommegna},
+           familyi={S\bibinitperiod},
+           given={Melissa\bibnamedelima (2018)},
+           giveni={M\bibinitperiod\bibinitdelim (\bibinitperiod}}}%
+      }
+      \strng{namehash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{fullhash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{bibnamehash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{authorbibnamehash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{authornamehash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{authorfullhash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{DronItaly, Milano 23-34 marzo 2018}}
+      \field{month}{3}
+      \field{title}{{Rilievo Aerofotogrammetrico del Parco della Fondazione Mach}}
+      \field{year}{2018}
+    \endentry
+    \entry{CERVIM_2018}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d9608a5a06911bf553a074ac502b9821}{%
+           family={Scandella},
+           familyi={S\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=841e979583cbbd1fbe7950a9f88d47cf}{%
+           family={Bucci},
+           familyi={B\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+        {{hash=be3a3422024775100e14cd99dc71a821}{%
+           family={Nabacino},
+           familyi={N\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=06000ec541f8b1e68932a122b169bd5b}{%
+           family={Scommegna},
+           familyi={S\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{fullhash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{bibnamehash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{authorbibnamehash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{authornamehash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{authorfullhash}{1640c8fc3600d0f734107025a37dd170}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 5th International Congress on Mountain and Steep Slope Viticulture}
+      \field{month}{4}
+      \field{title}{Surveying the development of the steep-slope, terraced and mountainous viticultural landscape by using unmanned aerial vehicles: a costs {\&} benefits analysis}
+      \field{year}{2018}
+      \field{pages}{4\bibrangedash 8}
+      \range{pages}{5}
+    \endentry
+    \entry{VVQ_2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d9608a5a06911bf553a074ac502b9821}{%
+           family={Scandella},
+           familyi={S\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d0684824ea40093023b0901e8fc6f2bb}{%
+           family={Bucci},
+           familyi={B\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod},
+           suffix={Davide\bibnamedelimb amd\bibnamedelima Scommegna},
+           suffixi={D\bibinitperiod\bibinitdelim a\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{fullhash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{bibnamehash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{authorbibnamehash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{authornamehash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{authorfullhash}{2b876b46fd6bf648fc464a690adfce35}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{{Edagricole-Tecniche nuove}}
+      \field{journaltitle}{VVQ vigne, vini {\&} qualità}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{{DRONHERO. Droni alla ricerca del capitale paesaggistico trentino}}
+      \field{volume}{1}
+      \field{year}{2018}
+      \field{pages}{46\bibrangedash 48}
+      \range{pages}{3}
+      \keyw{divulgative}
+    \endentry
+    \entry{AGRIACMA_2018}{article}{}
+      \name{author}{5}{}{%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=06000ec541f8b1e68932a122b169bd5b}{%
+           family={Scommegna},
+           familyi={S\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=61f8d6be88f2263652222e31a19deb6d}{%
+           family={Scanedella},
+           familyi={S\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=573310c2d579144f0b9d634cdad62b83}{%
+           family={Crocetta},
+           familyi={C\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=be3a3422024775100e14cd99dc71a821}{%
+           family={Nabacino},
+           familyi={N\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{fullhash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{bibnamehash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{authorbibnamehash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{authornamehash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{authorfullhash}{f4644ed9ea43a5707a787667332367ea}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{AGRIACMA: 9th Fiera specializzata - Macchine Agricole di Montagna. Riva del Garda}}
+      \field{month}{3}
+      \field{title}{{Droni ed Agricoltura: esperienze Formative ed esperienze Tecniche}}
+      \field{year}{2018}
+      \keyw{divulgative}
+    \endentry
     \entry{sensors2017}{article}{}
       \name{author}{3}{}{%
         {{hash=3da5c28a0908be91f6fb5d236bf29904}{%
@@ -1525,6 +1966,55 @@
       \verb{doi}
       \verb 10.3390/s17020404
       \endverb
+    \endentry
+    \entry{TT_2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=68fdb833d1cef70c462b548f0c0e0455}{%
+           family={Cristofolini},
+           familyi={C\bibinitperiod},
+           given={Fabiana},
+           giveni={F\bibinitperiod}}}%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=16eb4e00c871e3f36f00b9dcbbab1e70}{%
+           family={Salvadori},
+           familyi={S\bibinitperiod},
+           given={Maurizio},
+           giveni={M\bibinitperiod}}}%
+        {{hash=179730a4e382f5e4fc2376fed9561c1b}{%
+           family={Zorzi},
+           familyi={Z\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=92c1f97fc2b575f868eb707d6ef87736}{%
+           family={Gottardini},
+           familyi={G\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{fullhash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{bibnamehash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{authorbibnamehash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{authornamehash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{authorfullhash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{{Edagricole-Tecniche nuove}}
+      \field{journaltitle}{Terra Trentina}
+      \field{month}{9}
+      \field{number}{2}
+      \field{title}{{I pollini, sentinelle dei cambiamenti climatici}}
+      \field{volume}{62}
+      \field{year}{2017}
+      \field{pages}{75}
+      \range{pages}{1}
+      \keyw{divulgative}
     \endentry
     \entry{CERVIM2017_poster}{inproceedings}{}
       \name{author}{2}{}{%
@@ -2955,6 +3445,202 @@
 
 \refsection{3}
   \datalist[entry]{ydnt/global//global/global}
+    \entry{DronItaly_2018_2}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=573310c2d579144f0b9d634cdad62b83}{%
+           family={Crocetta},
+           familyi={C\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=aa712c6344e1a575ed168ca7734c96f9}{%
+           family={Scommegna},
+           familyi={S\bibinitperiod},
+           given={Melissa\bibnamedelima (2018)},
+           giveni={M\bibinitperiod\bibinitdelim (\bibinitperiod}}}%
+      }
+      \strng{namehash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{fullhash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{bibnamehash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{authorbibnamehash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{authornamehash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{authorfullhash}{868aaf3c180350c23f98deda0644ab7d}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{DronItaly, Milano 23-34 marzo 2018}}
+      \field{month}{3}
+      \field{title}{{Droni e TreeClimbing per il monitoraggio degli alberi in ambito urbano}}
+      \field{year}{2018}
+    \endentry
+    \entry{DronItaly_2018_1}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=d9608a5a06911bf553a074ac502b9821}{%
+           family={Scandella},
+           familyi={S\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=aa712c6344e1a575ed168ca7734c96f9}{%
+           family={Scommegna},
+           familyi={S\bibinitperiod},
+           given={Melissa\bibnamedelima (2018)},
+           giveni={M\bibinitperiod\bibinitdelim (\bibinitperiod}}}%
+      }
+      \strng{namehash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{fullhash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{bibnamehash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{authorbibnamehash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{authornamehash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{authorfullhash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{DronItaly, Milano 23-34 marzo 2018}}
+      \field{month}{3}
+      \field{title}{{Rilievo Aerofotogrammetrico del Parco della Fondazione Mach}}
+      \field{year}{2018}
+    \endentry
+    \entry{CERVIM_2018}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d9608a5a06911bf553a074ac502b9821}{%
+           family={Scandella},
+           familyi={S\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=841e979583cbbd1fbe7950a9f88d47cf}{%
+           family={Bucci},
+           familyi={B\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+        {{hash=be3a3422024775100e14cd99dc71a821}{%
+           family={Nabacino},
+           familyi={N\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=06000ec541f8b1e68932a122b169bd5b}{%
+           family={Scommegna},
+           familyi={S\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{fullhash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{bibnamehash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{authorbibnamehash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{authornamehash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{authorfullhash}{1640c8fc3600d0f734107025a37dd170}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 5th International Congress on Mountain and Steep Slope Viticulture}
+      \field{month}{4}
+      \field{title}{Surveying the development of the steep-slope, terraced and mountainous viticultural landscape by using unmanned aerial vehicles: a costs {\&} benefits analysis}
+      \field{year}{2018}
+      \field{pages}{4\bibrangedash 8}
+      \range{pages}{5}
+    \endentry
+    \entry{VVQ_2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d9608a5a06911bf553a074ac502b9821}{%
+           family={Scandella},
+           familyi={S\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d0684824ea40093023b0901e8fc6f2bb}{%
+           family={Bucci},
+           familyi={B\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod},
+           suffix={Davide\bibnamedelimb amd\bibnamedelima Scommegna},
+           suffixi={D\bibinitperiod\bibinitdelim a\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{fullhash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{bibnamehash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{authorbibnamehash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{authornamehash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{authorfullhash}{2b876b46fd6bf648fc464a690adfce35}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{{Edagricole-Tecniche nuove}}
+      \field{journaltitle}{VVQ vigne, vini {\&} qualità}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{{DRONHERO. Droni alla ricerca del capitale paesaggistico trentino}}
+      \field{volume}{1}
+      \field{year}{2018}
+      \field{pages}{46\bibrangedash 48}
+      \range{pages}{3}
+      \keyw{divulgative}
+    \endentry
+    \entry{AGRIACMA_2018}{article}{}
+      \name{author}{5}{}{%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=06000ec541f8b1e68932a122b169bd5b}{%
+           family={Scommegna},
+           familyi={S\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=61f8d6be88f2263652222e31a19deb6d}{%
+           family={Scanedella},
+           familyi={S\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=573310c2d579144f0b9d634cdad62b83}{%
+           family={Crocetta},
+           familyi={C\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=be3a3422024775100e14cd99dc71a821}{%
+           family={Nabacino},
+           familyi={N\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{fullhash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{bibnamehash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{authorbibnamehash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{authornamehash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{authorfullhash}{f4644ed9ea43a5707a787667332367ea}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{AGRIACMA: 9th Fiera specializzata - Macchine Agricole di Montagna. Riva del Garda}}
+      \field{month}{3}
+      \field{title}{{Droni ed Agricoltura: esperienze Formative ed esperienze Tecniche}}
+      \field{year}{2018}
+      \keyw{divulgative}
+    \endentry
     \entry{sensors2017}{article}{}
       \name{author}{3}{}{%
         {{hash=3da5c28a0908be91f6fb5d236bf29904}{%
@@ -2993,6 +3679,55 @@
       \verb{doi}
       \verb 10.3390/s17020404
       \endverb
+    \endentry
+    \entry{TT_2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=68fdb833d1cef70c462b548f0c0e0455}{%
+           family={Cristofolini},
+           familyi={C\bibinitperiod},
+           given={Fabiana},
+           giveni={F\bibinitperiod}}}%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=16eb4e00c871e3f36f00b9dcbbab1e70}{%
+           family={Salvadori},
+           familyi={S\bibinitperiod},
+           given={Maurizio},
+           giveni={M\bibinitperiod}}}%
+        {{hash=179730a4e382f5e4fc2376fed9561c1b}{%
+           family={Zorzi},
+           familyi={Z\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=92c1f97fc2b575f868eb707d6ef87736}{%
+           family={Gottardini},
+           familyi={G\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{fullhash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{bibnamehash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{authorbibnamehash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{authornamehash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{authorfullhash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{{Edagricole-Tecniche nuove}}
+      \field{journaltitle}{Terra Trentina}
+      \field{month}{9}
+      \field{number}{2}
+      \field{title}{{I pollini, sentinelle dei cambiamenti climatici}}
+      \field{volume}{62}
+      \field{year}{2017}
+      \field{pages}{75}
+      \range{pages}{1}
+      \keyw{divulgative}
     \endentry
     \entry{CERVIM2017_poster}{inproceedings}{}
       \name{author}{2}{}{%
@@ -4423,6 +5158,202 @@
 
 \refsection{4}
   \datalist[entry]{ydnt/global//global/global}
+    \entry{DronItaly_2018_2}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=573310c2d579144f0b9d634cdad62b83}{%
+           family={Crocetta},
+           familyi={C\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=aa712c6344e1a575ed168ca7734c96f9}{%
+           family={Scommegna},
+           familyi={S\bibinitperiod},
+           given={Melissa\bibnamedelima (2018)},
+           giveni={M\bibinitperiod\bibinitdelim (\bibinitperiod}}}%
+      }
+      \strng{namehash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{fullhash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{bibnamehash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{authorbibnamehash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{authornamehash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{authorfullhash}{868aaf3c180350c23f98deda0644ab7d}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{DronItaly, Milano 23-34 marzo 2018}}
+      \field{month}{3}
+      \field{title}{{Droni e TreeClimbing per il monitoraggio degli alberi in ambito urbano}}
+      \field{year}{2018}
+    \endentry
+    \entry{DronItaly_2018_1}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=d9608a5a06911bf553a074ac502b9821}{%
+           family={Scandella},
+           familyi={S\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=aa712c6344e1a575ed168ca7734c96f9}{%
+           family={Scommegna},
+           familyi={S\bibinitperiod},
+           given={Melissa\bibnamedelima (2018)},
+           giveni={M\bibinitperiod\bibinitdelim (\bibinitperiod}}}%
+      }
+      \strng{namehash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{fullhash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{bibnamehash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{authorbibnamehash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{authornamehash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{authorfullhash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{DronItaly, Milano 23-34 marzo 2018}}
+      \field{month}{3}
+      \field{title}{{Rilievo Aerofotogrammetrico del Parco della Fondazione Mach}}
+      \field{year}{2018}
+    \endentry
+    \entry{CERVIM_2018}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d9608a5a06911bf553a074ac502b9821}{%
+           family={Scandella},
+           familyi={S\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=841e979583cbbd1fbe7950a9f88d47cf}{%
+           family={Bucci},
+           familyi={B\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+        {{hash=be3a3422024775100e14cd99dc71a821}{%
+           family={Nabacino},
+           familyi={N\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=06000ec541f8b1e68932a122b169bd5b}{%
+           family={Scommegna},
+           familyi={S\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{fullhash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{bibnamehash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{authorbibnamehash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{authornamehash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{authorfullhash}{1640c8fc3600d0f734107025a37dd170}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 5th International Congress on Mountain and Steep Slope Viticulture}
+      \field{month}{4}
+      \field{title}{Surveying the development of the steep-slope, terraced and mountainous viticultural landscape by using unmanned aerial vehicles: a costs {\&} benefits analysis}
+      \field{year}{2018}
+      \field{pages}{4\bibrangedash 8}
+      \range{pages}{5}
+    \endentry
+    \entry{VVQ_2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d9608a5a06911bf553a074ac502b9821}{%
+           family={Scandella},
+           familyi={S\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d0684824ea40093023b0901e8fc6f2bb}{%
+           family={Bucci},
+           familyi={B\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod},
+           suffix={Davide\bibnamedelimb amd\bibnamedelima Scommegna},
+           suffixi={D\bibinitperiod\bibinitdelim a\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{fullhash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{bibnamehash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{authorbibnamehash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{authornamehash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{authorfullhash}{2b876b46fd6bf648fc464a690adfce35}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{{Edagricole-Tecniche nuove}}
+      \field{journaltitle}{VVQ vigne, vini {\&} qualità}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{{DRONHERO. Droni alla ricerca del capitale paesaggistico trentino}}
+      \field{volume}{1}
+      \field{year}{2018}
+      \field{pages}{46\bibrangedash 48}
+      \range{pages}{3}
+      \keyw{divulgative}
+    \endentry
+    \entry{AGRIACMA_2018}{article}{}
+      \name{author}{5}{}{%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=06000ec541f8b1e68932a122b169bd5b}{%
+           family={Scommegna},
+           familyi={S\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=61f8d6be88f2263652222e31a19deb6d}{%
+           family={Scanedella},
+           familyi={S\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=573310c2d579144f0b9d634cdad62b83}{%
+           family={Crocetta},
+           familyi={C\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=be3a3422024775100e14cd99dc71a821}{%
+           family={Nabacino},
+           familyi={N\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{fullhash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{bibnamehash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{authorbibnamehash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{authornamehash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{authorfullhash}{f4644ed9ea43a5707a787667332367ea}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{AGRIACMA: 9th Fiera specializzata - Macchine Agricole di Montagna. Riva del Garda}}
+      \field{month}{3}
+      \field{title}{{Droni ed Agricoltura: esperienze Formative ed esperienze Tecniche}}
+      \field{year}{2018}
+      \keyw{divulgative}
+    \endentry
     \entry{sensors2017}{article}{}
       \name{author}{3}{}{%
         {{hash=3da5c28a0908be91f6fb5d236bf29904}{%
@@ -4461,6 +5392,55 @@
       \verb{doi}
       \verb 10.3390/s17020404
       \endverb
+    \endentry
+    \entry{TT_2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=68fdb833d1cef70c462b548f0c0e0455}{%
+           family={Cristofolini},
+           familyi={C\bibinitperiod},
+           given={Fabiana},
+           giveni={F\bibinitperiod}}}%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=16eb4e00c871e3f36f00b9dcbbab1e70}{%
+           family={Salvadori},
+           familyi={S\bibinitperiod},
+           given={Maurizio},
+           giveni={M\bibinitperiod}}}%
+        {{hash=179730a4e382f5e4fc2376fed9561c1b}{%
+           family={Zorzi},
+           familyi={Z\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=92c1f97fc2b575f868eb707d6ef87736}{%
+           family={Gottardini},
+           familyi={G\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{fullhash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{bibnamehash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{authorbibnamehash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{authornamehash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{authorfullhash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{{Edagricole-Tecniche nuove}}
+      \field{journaltitle}{Terra Trentina}
+      \field{month}{9}
+      \field{number}{2}
+      \field{title}{{I pollini, sentinelle dei cambiamenti climatici}}
+      \field{volume}{62}
+      \field{year}{2017}
+      \field{pages}{75}
+      \range{pages}{1}
+      \keyw{divulgative}
     \endentry
     \entry{CERVIM2017_poster}{inproceedings}{}
       \name{author}{2}{}{%
@@ -5891,6 +6871,202 @@
 
 \refsection{5}
   \datalist[entry]{ydnt/global//global/global}
+    \entry{DronItaly_2018_2}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=573310c2d579144f0b9d634cdad62b83}{%
+           family={Crocetta},
+           familyi={C\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=aa712c6344e1a575ed168ca7734c96f9}{%
+           family={Scommegna},
+           familyi={S\bibinitperiod},
+           given={Melissa\bibnamedelima (2018)},
+           giveni={M\bibinitperiod\bibinitdelim (\bibinitperiod}}}%
+      }
+      \strng{namehash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{fullhash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{bibnamehash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{authorbibnamehash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{authornamehash}{868aaf3c180350c23f98deda0644ab7d}
+      \strng{authorfullhash}{868aaf3c180350c23f98deda0644ab7d}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{DronItaly, Milano 23-34 marzo 2018}}
+      \field{month}{3}
+      \field{title}{{Droni e TreeClimbing per il monitoraggio degli alberi in ambito urbano}}
+      \field{year}{2018}
+    \endentry
+    \entry{DronItaly_2018_1}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=d9608a5a06911bf553a074ac502b9821}{%
+           family={Scandella},
+           familyi={S\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=aa712c6344e1a575ed168ca7734c96f9}{%
+           family={Scommegna},
+           familyi={S\bibinitperiod},
+           given={Melissa\bibnamedelima (2018)},
+           giveni={M\bibinitperiod\bibinitdelim (\bibinitperiod}}}%
+      }
+      \strng{namehash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{fullhash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{bibnamehash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{authorbibnamehash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{authornamehash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \strng{authorfullhash}{99449e1b9c0e84ece1fd2bde5e4198f6}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{DronItaly, Milano 23-34 marzo 2018}}
+      \field{month}{3}
+      \field{title}{{Rilievo Aerofotogrammetrico del Parco della Fondazione Mach}}
+      \field{year}{2018}
+    \endentry
+    \entry{CERVIM_2018}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d9608a5a06911bf553a074ac502b9821}{%
+           family={Scandella},
+           familyi={S\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=841e979583cbbd1fbe7950a9f88d47cf}{%
+           family={Bucci},
+           familyi={B\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+        {{hash=be3a3422024775100e14cd99dc71a821}{%
+           family={Nabacino},
+           familyi={N\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=06000ec541f8b1e68932a122b169bd5b}{%
+           family={Scommegna},
+           familyi={S\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{fullhash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{bibnamehash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{authorbibnamehash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{authornamehash}{1640c8fc3600d0f734107025a37dd170}
+      \strng{authorfullhash}{1640c8fc3600d0f734107025a37dd170}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 5th International Congress on Mountain and Steep Slope Viticulture}
+      \field{month}{4}
+      \field{title}{Surveying the development of the steep-slope, terraced and mountainous viticultural landscape by using unmanned aerial vehicles: a costs {\&} benefits analysis}
+      \field{year}{2018}
+      \field{pages}{4\bibrangedash 8}
+      \range{pages}{5}
+    \endentry
+    \entry{VVQ_2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d9608a5a06911bf553a074ac502b9821}{%
+           family={Scandella},
+           familyi={S\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d0684824ea40093023b0901e8fc6f2bb}{%
+           family={Bucci},
+           familyi={B\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod},
+           suffix={Davide\bibnamedelimb amd\bibnamedelima Scommegna},
+           suffixi={D\bibinitperiod\bibinitdelim a\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{fullhash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{bibnamehash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{authorbibnamehash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{authornamehash}{2b876b46fd6bf648fc464a690adfce35}
+      \strng{authorfullhash}{2b876b46fd6bf648fc464a690adfce35}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{{Edagricole-Tecniche nuove}}
+      \field{journaltitle}{VVQ vigne, vini {\&} qualità}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{{DRONHERO. Droni alla ricerca del capitale paesaggistico trentino}}
+      \field{volume}{1}
+      \field{year}{2018}
+      \field{pages}{46\bibrangedash 48}
+      \range{pages}{3}
+      \keyw{divulgative}
+    \endentry
+    \entry{AGRIACMA_2018}{article}{}
+      \name{author}{5}{}{%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=06000ec541f8b1e68932a122b169bd5b}{%
+           family={Scommegna},
+           familyi={S\bibinitperiod},
+           given={Melissa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=61f8d6be88f2263652222e31a19deb6d}{%
+           family={Scanedella},
+           familyi={S\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod}}}%
+        {{hash=573310c2d579144f0b9d634cdad62b83}{%
+           family={Crocetta},
+           familyi={C\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=be3a3422024775100e14cd99dc71a821}{%
+           family={Nabacino},
+           familyi={N\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{fullhash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{bibnamehash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{authorbibnamehash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{authornamehash}{f4644ed9ea43a5707a787667332367ea}
+      \strng{authorfullhash}{f4644ed9ea43a5707a787667332367ea}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{AGRIACMA: 9th Fiera specializzata - Macchine Agricole di Montagna. Riva del Garda}}
+      \field{month}{3}
+      \field{title}{{Droni ed Agricoltura: esperienze Formative ed esperienze Tecniche}}
+      \field{year}{2018}
+      \keyw{divulgative}
+    \endentry
     \entry{sensors2017}{article}{}
       \name{author}{3}{}{%
         {{hash=3da5c28a0908be91f6fb5d236bf29904}{%
@@ -5929,6 +7105,55 @@
       \verb{doi}
       \verb 10.3390/s17020404
       \endverb
+    \endentry
+    \entry{TT_2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=68fdb833d1cef70c462b548f0c0e0455}{%
+           family={Cristofolini},
+           familyi={C\bibinitperiod},
+           given={Fabiana},
+           giveni={F\bibinitperiod}}}%
+        {{hash=608c7b486eacb4dcb99f27d43974dca4}{%
+           family={Zottele},
+           familyi={Z\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=16eb4e00c871e3f36f00b9dcbbab1e70}{%
+           family={Salvadori},
+           familyi={S\bibinitperiod},
+           given={Maurizio},
+           giveni={M\bibinitperiod}}}%
+        {{hash=179730a4e382f5e4fc2376fed9561c1b}{%
+           family={Zorzi},
+           familyi={Z\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=92c1f97fc2b575f868eb707d6ef87736}{%
+           family={Gottardini},
+           familyi={G\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{fullhash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{bibnamehash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{authorbibnamehash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{authornamehash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \strng{authorfullhash}{fe5fa4c8ebb4806bc5b6bc7136d76b90}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{{Edagricole-Tecniche nuove}}
+      \field{journaltitle}{Terra Trentina}
+      \field{month}{9}
+      \field{number}{2}
+      \field{title}{{I pollini, sentinelle dei cambiamenti climatici}}
+      \field{volume}{62}
+      \field{year}{2017}
+      \field{pages}{75}
+      \range{pages}{1}
+      \keyw{divulgative}
     \endentry
     \entry{CERVIM2017_poster}{inproceedings}{}
       \name{author}{2}{}{%

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2018.8.21)  21 AUG 2018 20:44
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2018.8.21)  21 AUG 2018 22:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1056,10 +1056,6 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-
-Package biblatex Warning: '\DeclareSortingScheme' is deprecated.
-(biblatex)                Please use '\DeclareSortingTemplate'.
-
 (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip71
@@ -1272,63 +1268,58 @@ Package microtype Info: Loading generic protrusion settings for font family
 ] [2] [3]
 \blx@maxsegment@1=\count413
 \blx@sectionciteorder@1=\count414
-Package biblatex Info: Reference section=1 on input line 171.
-Package biblatex Info: Setting label 'refsection:1' on input line 171.
+Package biblatex Info: Reference section=1 on input line 173.
+Package biblatex Info: Setting label 'refsection:1' on input line 173.
  [4]
-Package biblatex Info: Reference section=0 on input line 175.
+Package biblatex Info: Reference section=0 on input line 177.
 \blx@maxsegment@2=\count415
 \blx@sectionciteorder@2=\count416
-Package biblatex Info: Reference section=2 on input line 177.
-Package biblatex Info: Setting label 'refsection:2' on input line 177.
+Package biblatex Info: Reference section=2 on input line 179.
+Package biblatex Info: Setting label 'refsection:2' on input line 179.
 
 
-Package biblatex Warning: Type 'book' not found on input line 180.
+Package biblatex Warning: Type 'book' not found on input line 182.
 
 
-LaTeX Warning: Empty bibliography on input line 180.
+LaTeX Warning: Empty bibliography on input line 182.
 
-Package biblatex Info: Reference section=0 on input line 181.
+Package biblatex Info: Reference section=0 on input line 183.
 \blx@maxsegment@3=\count417
 \blx@sectionciteorder@3=\count418
-Package biblatex Info: Reference section=3 on input line 183.
-Package biblatex Info: Setting label 'refsection:3' on input line 183.
+Package biblatex Info: Reference section=3 on input line 185.
+Package biblatex Info: Setting label 'refsection:3' on input line 185.
 [5]
-Package biblatex Info: Reference section=0 on input line 187.
+Package biblatex Info: Reference section=0 on input line 189.
 \blx@maxsegment@4=\count419
 \blx@sectionciteorder@4=\count420
-Package biblatex Info: Reference section=4 on input line 189.
-Package biblatex Info: Setting label 'refsection:4' on input line 189.
+Package biblatex Info: Reference section=4 on input line 191.
+Package biblatex Info: Setting label 'refsection:4' on input line 191.
 
 
-Package biblatex Warning: Type 'report' not found on input line 192.
+Package biblatex Warning: Type 'report' not found on input line 194.
 
 
-LaTeX Warning: Empty bibliography on input line 192.
+LaTeX Warning: Empty bibliography on input line 194.
 
-Package biblatex Info: Reference section=0 on input line 193.
+Package biblatex Info: Reference section=0 on input line 195.
 \blx@maxsegment@5=\count421
 \blx@sectionciteorder@5=\count422
-Package biblatex Info: Reference section=5 on input line 195.
-Package biblatex Info: Setting label 'refsection:5' on input line 195.
-
-Package biblatex Warning: Type 'misc' not found on input line 198.
-
-
-LaTeX Warning: Empty bibliography on input line 198.
-
-Package biblatex Info: Reference section=0 on input line 199.
-[6] (./curriculum_ita.aux)
+Package biblatex Info: Reference section=5 on input line 197.
+Package biblatex Info: Setting label 'refsection:5' on input line 197.
+[6]
+Package biblatex Info: Reference section=0 on input line 201.
+ [7] (./curriculum_ita.aux)
 Package logreq Info: Writing requests to 'curriculum_ita.run.xml'.
 \openout1 = `curriculum_ita.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35361 strings out of 492970
- 717649 string characters out of 6139408
- 1256632 words of memory out of 5000000
- 38944 multiletter control sequences out of 15000+600000
+ 35408 strings out of 492970
+ 719559 string characters out of 6139408
+ 1286452 words of memory out of 5000000
+ 38991 multiletter control sequences out of 15000+600000
  530658 words of font info for 56 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,6n,70p,10423b,4520s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on curriculum_ita.pdf (6 pages).
+Output written on curriculum_ita.pdf (7 pages).
