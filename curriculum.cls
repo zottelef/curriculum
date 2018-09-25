@@ -1,11 +1,12 @@
 \ProvidesClass{curriculum}
 \NeedsTeXFormat{LaTeX2e}
-\LoadClass[11pt]{article}
+\LoadClass[11pt, twoside]{article}
 
 \setlength\paperheight {297mm}
 \setlength\paperwidth {210mm}
 
 \RequirePackage[super]{nth}
+
 
 % colors
 \RequirePackage{xcolor}
@@ -139,8 +140,9 @@
     \setunit*{\addcomma\space}%
     %\printfield{year}%
     \newunit%
+    \vspace{2.5 mm}
   }
-  \par\vspace{0.3\baselineskip}
+  %\par\vspace{0.1\baselineskip}
 }
 
 \DeclareBibliographyDriver{inproceedings}{%
@@ -161,8 +163,9 @@
     \setunit{\addcomma\space}%
     \printlist{location}%
     \newunit%
+    \vspace{2.5 mm}
   }
-  \par\vspace{0.3\baselineskip}
+  %\par\vspace{0.1\baselineskip}
 }
 
 % \DeclareBibliographyDriver{misc}{%
@@ -185,7 +188,6 @@
 %   \par\vspace{0.3\baselineskip}
 % }
 
-
 \DeclareBibliographyDriver{incollection}{%
   \printfield{title}%
   \newblock%
@@ -203,9 +205,10 @@
     \printfield{year}%
     \setunit{\addcomma\space}%
     \printlist{location}%
-    \newunit%
+    \newunit
+    \vspace{2.5 mm}
   }
-  \par\vspace{0.3\baselineskip}
+  %\par\vspace{0.1\baselineskip}
 }
 
 % \DeclareBibliographyDriver{report}{%

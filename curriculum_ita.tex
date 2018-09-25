@@ -1,17 +1,33 @@
 %% xelatex --interaction=nonstopmode curriculum_ita
 
 \documentclass{curriculum}
-
+\usepackage[italian]{babel}
+\hyphenation{A-gro-e-co-lo-gi-a}
 \addbibresource{curriculum.bib}
 
-\usepackage[italian]{babel}
+\usepackage{lastpage}
+
+
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\setlength{\headheight}{14pt}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-\cfoot{\footnotesize \addfontfeature{Color=lightgray} Autorizzo il trattamento dei miei dati personali ai sensi del Dlgs 196 del 30 giugno 2003 e dell’art. 13 GDPR (Regolamento UE 2016/679) ai fini della ricerca e selezione del personale}
+\setlength{\headheight}{30pt}
 
+\fancypagestyle{firstpage}{ %
+  \fancyhf{} % remove everything
+  \renewcommand{\headrulewidth}{0pt} % remove lines as well
+  \renewcommand{\footrulewidth}{0pt}
+  \cfoot{\fontsize{8}{9}\selectfont\addfontfeature{Color=lightgray} Autorizzo il trattamento dei miei dati personali presenti nel cv ai sensi del Decreto Legislativo 30 giugno 2003, n. 196 “Codice in materia di protezione dei dati personali” e del GDPR (Regolamento UE 2016/679).}
+}
+\fancypagestyle{normalpage}{ %
+  \fancyhf{} % remove everything
+  \renewcommand{\headrulewidth}{0pt} % remove lines as well
+  \renewcommand{\footrulewidth}{0pt}
+  \fancyhead[LE]{\fontsize{8}{9}\selectfont \addfontfeature{Color=lightgray} Curriculm vit\ae~di Fabio Zottele (aggiornato al \today)}
+  \fancyhead[RE]{\fontsize{8}{9}\selectfont \addfontfeature{Color=lightgray} pagina \thepage\ di \pageref{LastPage}}
+  \fancyhead[LO]{\fontsize{8}{9}\selectfont \addfontfeature{Color=lightgray} pagina \thepage\ di \pageref{LastPage}}
+  \fancyhead[RO]{\fontsize{8}{9}\selectfont \addfontfeature{Color=lightgray} Curriculm vit\ae~di Fabio Zottele (aggiornato al \today)}
+  \cfoot{ \fontsize{8}{9}\selectfont \addfontfeature{Color=lightgray} Autorizzo il trattamento dei miei dati personali presenti nel cv ai sensi del Decreto Legislativo 30 giugno 2003, n. 196 “Codice in materia di protezione dei dati personali” e del GDPR (Regolamento UE 2016/679).}
+}
 
 \renewcommand*{\mkbibnamegiven}[1]{%
   \ifitemannotation{highlight}
@@ -22,85 +38,95 @@
   \ifitemannotation{highlight}
     {\textbf{#1}}
     {#1}}
+    
+% \usepackage{titlesec}
+% 
+% \titlespacing*{\section}
 
 \begin{document}
+    \pagestyle{firstpage}
   \header{Fabio}{Zottele} {tecnologo sperimentatore di quarto livello}
   
-    Dal 2006 lavoro presso la Fondazione Edmund Mach di San Michele all'Adige: attualmente sono assegnato al Centro di Trasferimento Tecnologico, Dipartimento Ambiente e agricoltura di montagna, Unità Agrometeorologia e sistemi informatici e nel corso degli anno ho acquisito sempre maggiore autonomia operativa nei seguenti ambiti:
+    Dal 2006 lavoro presso la Fondazione Edmund Mach di San Michele all'Adige. In questi 12 anni, operando in autonomia o collaborando con altri ricercatori e tecnologi interni ed esterni a FEM,  ho pubblicato articoli su riviste scientifiche e divulgative, capitoli di libri e atti di convegno, ho tenuto relazioni orali per eventi locali, nazionali e internazionali, ho curato la stesura di numerosi progetti.
+    Sto coordinando il lavoro di uno studente di dottorato in ERASMUS e negli ultimi 9 anni ho coordinato due collaboratori a progetto laureati in ingegneria, due studenti di master, tre tesisti universitari, un tirocinante laureato, due tirocinanti diplomati e tre studenti di scuola superiore.\\
+    Attualmente sono assegnato al Centro di Trasferimento Tecnologico, Dipartimento Ambiente e agricoltura di montagna, Unità Agrometeorologia e sistemi informatici. Gli ambiti in cui opero in autonomia sono:\vspace{0.33 cm}
     
     \begin{description}[style= unboxed, leftmargin= 6 pt, topsep= -3 pt, parsep= 3 pt, itemsep= 2pt]
-     \item[Analisi di dati per il mio gruppo di lavoro.] Utilizzo metodi statistici per l'interpolazione spaziotemporale delle misure effettuate dai sensori dalla nostra rete agrometeorologica.\\
-     L'obiettivo è quello di controllare, correggere e validare le misure e utilizzare le informazioni ottenute sia per realizzare mappe e analisi climatiche come il calcolo del rischio e del tempo di ritorno di eventi meteorologici che possono compromettere la produzione agricola\\
+     \item[Analisi di dati per il mio gruppo di lavoro.] Utilizzo metodi statistici per l'interpolazione spaziotemporale delle misure effettuate dai sensori dalla rete agrometeorologica di FEM per controllo, correggo e validado le misure raccolte. Con queste informazioni realizzo mappe ed effettuo analisi climatiche utili alla definizionie di strategie di salvaguardia della produzione agricola da eventi meteorologici estremi.\\
      Inoltre sviluppo software per stimare il fabbisogno irriguo delle principali colture trentine in base alle condizioni atmosferiche, alla fisiologia della pianta e alle proprietà del suolo ed allo stato idrico del terreno.
      %\\In questo ambito di lavoro ho supervisionato due collaboratoria progetto, un tirocinante e un tesista.    
      \item[Analisi di dati a supporto di altri gruppi della Fondazione Mach.] Metto a disposizione le mie conoscenze matematiche e statistiche in maniera trasversale. Individuo gli strumenti più adatti per analizzare serie di dati agronomici e ambientali e per la successiva interpretazione dei risultati.
      %Nell'ambito di questa attività ho supervisionato due tesisti.
      \item[Studio dell'evoluzione dei paesaggi viticoli trentini] Dal 2010 indago come l'interazione tra clima, economia e società guidi l'evoluzione del paesaggio viticolo montano.\\
-     In origine, questo ambito di ricerca analizzava gli elementi fisici del paesaggio per confrontare differenti territori viticoli europei (Val di Cembra in Italia e  Banyuls\textendash sur\textendash mer in Francia).\\
-     Successivamente, per integrare "il fattore umano" nella descrizione dell'evoluzione di un territorio nello spazio e nel tempo, ho utilizzato la \textit{teoria dei sistemi ad agenti multipli}: dalla sintesi di queste esperienze ho definito il concetto  di "Capitale Paesaggistico", \textit{Landscapital}, ovvero uno strumento che consente di dare un valore tangibile al paesaggio e per valorizzazione le produzioni vitivinicole e per confrontare paesaggi viticoli con caratteristiche differenti. 
+     In origine, analizzavo gli elementi fisici del paesaggio per confrontare differenti territori viticoli europei (Val di Cembra in Italia e  Banyuls\textendash sur\textendash mer in Francia).\\
+     Successivamente, per integrare "il fattore umano" nella descrizione dell'evoluzione di un territorio nello spazio e nel tempo, ho utilizzato la \textit{teoria dei sistemi ad agenti multipli}: dalla sintesi di queste esperienze ho definito il concetto  di "Capitale Paesaggistico, \textit{Landscapital}" ovvero uno strumento che consente di dare un valore tangibile al paesaggio con lo scopo di valorizzazione le produzioni vitivinicole e di confrontare paesaggi viticoli con caratteristiche differenti. 
      %Nell'ambito di questa attività ho coordinato uno studente di master ed un tesista.
      \item[Droni e agricoltura di precisione] A partire dall'esperienza maturata sviluppando sistemi di supporto alle decisioni in ambito agronomico, ho recentemente approfondito le opportunità ed i benefici che meccatronica può offrire all'agricoltura trentina.\\
-     In particolare, ho coordinato un progetto per l'utilizzo del drone come strumento economicamente vantaggioso per il studiare l'evoluzione del paesaggio viticolo in forte pendenza. Inoltre, coordino un progetto per testare se il drone possa coadiuvare il monitoraggio dei giallumi della vite.\\
-     Sono referente per la Fondazione Mach sul Tavolo della Ricerca e della Sperimentazione, nato a seguito della firma del "Protocollo di intesa per lo sviluppo della formazione aeronautica in Trentino".
+     In particolare, ho coordinato un progetto per l'utilizzo del drone come strumento economicamente vantaggioso per il studiare l'evoluzione del paesaggio viticolo terrazzato. Attualmente coordino un progetto per verificare se il drone possa coadiuvare il monitoraggio dei giallumi della vite e coordino le attività dei piloti APR coinvolti in un progetto di rilievo della moria del melo.\\
+     Sono delegato da FEM a partecipare al "Tavolo provinciale della ricerca e sperimentazione aeronautica" nato a seguito della firma del "Protocollo di intesa per lo sviluppo della formazione aeronautica in Trentino".
      %Nell'ambito di questa attività ho coordinato un tirocinante ed due studenti: uno dell'Alta Formazione per Tecnico Superiore del Verde ed uno studente dell'Istituto Agrario.
     \end{description}
-    \vspace{3pt}
-    Nell'ambito di queste attività ho coordinato il lavoro di uno studente di dottorato in ERASMUS, due collaboratori a progetto laureati in ingegneria, due studenti di master, tre tesisti universitari, un tirocinante laureato, due tirocinanti diplomati e tre studenti di scuola superiore. Lavorando trasversalmente a Centri, Dipartimenti ed Unità della Fondazione Edmund Mach ho pubblicato articoli su riviste scientifiche e divulgative, capitoli di libri e atti di convegno ed ho partecipato a relazioni orali ad eventi locali, nazionali ed internazionali riguardo agli ambiti descritti. 
     
     \newpage
+    \pagestyle{normalpage}
+    
+    \section{Informazioni personali}
+    \begin{description}[ labelindent=1in ,labelwidth=2cm, leftmargin =! , itemindent = 0pt, style = sameline]
+        \item[Luogo e data di nascita:] Trento, 14 luglio 1976
+        \item[Indirizzo:] Via Guardini, 63 - 38121 Trento (IT)
+        \item[Telefono:] 0461~615395
+        \item[Nazionalità:] italiana
+        \item[Madrelingua:] italiano
+    \end{description}
     
     \section{Istruzione}
     \begin{entrylist}
     \entry
         {1995--2005}{M.Sc. magna cum laude {\normalfont In Ingegneria per l'Ambiente ed il Territorio}}{Università degli studi di Trento}{\emph{Un approccio 3D vettoriale alla modellazione di venti locali termicamente forzati.}\hfill\vspace{2pt}\\
-        Partendo da un modello micrometeorologico, ho sviluppato un software per il GIS GRASS per descrivere il profilo di vento e di temperatura sulle pendici delle valli di tipo alpino.}
+        Partendo da un modello micrometeorologico, ho sviluppato un software per il GIS GRASS per descrivere il profilo di vento e di temperatura sulle pendici delle valli alpine.}
     \end{entrylist}
     
-    
-    \section{Esperienza}
+    \section{Esperienza professionale}
     \begin{entrylist}
     \entry 
-        {2006--Oggi}{Fondazione Edmund Mach} {San Michele all'Adige, IT}{\emph{Contrattista a progetto e tecnologo di IV livello}\hfill\vspace{3pt}\\
+        {2006--oggi}{Fondazione Edmund Mach} {San Michele all'Adige, IT}{\emph{Contrattista a progetto e tecnologo di IV livello}\hfill\vspace{3pt}\\
         Progetto e realizzo strumenti a supporto della gestione dell'acqua per l'irrigazione dei vigneti e dei frutteti trentini sviluppando software che stimano nello spazio e nel tempo il contenuto d'acqua nel suolo.
-        \\Negli anni ho approfondito le tecniche di analisi statistica e geostatistica nell'ambito della meteorologia agraria. Ho sviluppato numerosi webGIS e, più recentemente, \textit{Rich Internet Applications} per la pubblicazione online delle elaborazioni effettuate nell'ambito delle attività del mio gruppo di lavoro. 
-        \\Queste competenze mi hanno permesso di collaborare con numerosi ricercatori e tecnologi della Fondazione Mach su numerosi progetti ed attività: per prevedere l'impatto del cambiamento climatico sulla fenologia delle piante e sulla diffusione di patologie nelle foreste delle Alpi, per lo sviluppo di modelli diffusione spazio-temporale del danno causato da specie aliene di insetti nei vigneti del Trentino al fine di suggerire interventi agronomici mirati e ridurre conseguentemente l'utilizzo di biocidi, sull'elaborazione dei dati meteorologici per progettazione energetica in edilizia, e per utilizzare le immagini radiometriche satellitari per pianificare e gestire operazioni di soccorso in caso di calamità\ldots  
-        \\Sono stato co-autore e docente al \textit{Corso di Sistemi e Tecnologie Informative Geografiche} per il Corso di Alta formazione per Tecnico del Verde, al corso \textit{Programmare con R} per l'associazione Italiana di Agrometeorologia, ai due seminari \textit{Workshop di R} per l'Unità di ricerca per il monitoraggio e la pianificazione forestale di CREA; al corso \textit{R: Spatial data structures and geostatistics} per Ricerca sul Sistema Energetico (RSE SpA); ed al corso \textit{Generalità sul clima; Microclima e Macroclima; elementi climatici: luce, temperatura, idrometeore, vento; strumenti di rilevazione e valutazione degli elementi climatici; Banche dati: rilevazioni e informazioni georeferenziate} per il Collegio dei Periti Agrari e dei Periti agrari Laureati.}
+        \\Negli anni ho approfondito le tecniche di analisi statistica e geostatistica nell'ambito della meteorologia agraria. Ho sviluppato numerosi webGIS e, più recentemente, \textit{Rich Internet Applications} per la pubblicazione online delle elaborazioni effettuate nell'ambito delle attività del mio gruppo di lavoro.\\
+        Queste competenze mi hanno permesso di collaborare con numerosi ricercatori e tecnologi su molti progetti ed attività. Tra i più rilevanti: prevedere l'impatto del cambiamento climatico sulla fenologia delle piante e sulla diffusione di patologie nelle foreste delle Alpi; sviluppo di modelli di diffusione spazio-temporale del danno causato da specie aliene di insetti nei vigneti del Trentino al fine di suggerire interventi agronomici mirati e ridurre conseguentemente l'utilizzo di insetticidi; elaborazione dei dati meteorologici per la progettazione energetica in edilizia; l'utilizzo delle immagini radiometriche satellitari nella pianificazione e gestione delle operazioni di soccorso in caso di terremoto.%\ldots \\ 
+        Sono stato co-autore e docente del \textit{Corso di Sistemi e Tecnologie Informative Geografiche} per l'Alta Formazione Professionale di FEM, del corso \textit{Programmare con R} per l'associazione Italiana di Agrometeorologia, di due seminari \textit{Workshop di R} per l'Unità di ricerca per il monitoraggio e la pianificazione forestale di CREA; del corso \textit{R: Spatial data structures and geostatistics} per Ricerca sul Sistema Energetico (RSE SpA), del corso \textit{Generalità sul clima; Microclima e Macroclima; elementi climatici: luce, temperatura, idrometeore, vento; strumenti di rilevazione e valutazione degli elementi climatici; Banche dati: rilevazioni e informazioni georeferenziate} per il Collegio dei Periti Agrari e dei Periti Agrari Laureati.}
     \end{entrylist}
     
     \begin{entrylist}
     \entry
         {2005--2015}{Dipartimento di Ingegneria Civile e Ambientale dell'Università degli Studi di Trento}{Centro per la Difesa idrogeologica dell'Ambiente Montano}{\emph{Collaboratore a progetto per l'attività di ricerca e per corsi di formazione}\hfill\vspace{3pt}\\
-        Durante il biennio 2005--2006 ho collaborato allo sviluppo di webGIS per il monitoraggio del traffico e sulla modellazione degli inquinanti nell'area urbana di Trento; per la pubblicazione online del piano di smaltimento dei rifiuti della regione Lazio; per la disseminazione dei dati geografici per le attività didattiche della Facoltà di Ingegneria dell'Università degli Studi di Trento; per un sistema di coordinamento delle operazioni di recupero dispersi in ambiente montano(SAR); e per l'integrazione di differenti basi dati per la gestione dei servizi urbani in collaborazione con INSULA SpA, braccio operativo del Comune di Venezia per la manutenzione urbana, le infrastrutture e l'edilizia.
-        \\In questo periodo ho acquisito competenze nella progettazione e nella realizzazione di database relazionali con estensione geografica verificandone l'interoperabilità con i principali software GIS liberi e a licenza proprietaria.
-        \\Fino al 2005 ho collaborato come co-autore, docente ed esercitatore al corso \textit{Grass Free ed Open Source GIS e geodatabase teoria ed applicazioni} (dalla terza alla dodicesima edizione) presso l'Università di Trento, l'Università di Genova. Al FOSS42006 di Losanna (CH) sono stato co-autore ed esercitatore del workshop \textit{GRASS GIS and external RDBMS}. 
-        Nel 2006 sono stato esercitatore del corso \textit{Ortofotocarte da immagini satellitari ad alta risoluzione: metodologie, applicazioni e problemi} dell'Università di Roma, La Sapienza.}
+        Durante il biennio 2005--2006 ho sviluppato quattro webGIS: per la pubblicazione dei dati del monitoraggio dei flussi di traffico e  della diffusione di alcuni inquinanti atmosferici nell'area urbana di Trento; per la pubblicazione online del piano di smaltimento dei rifiuti della regione Lazio; per la disseminazione dei dati geografici per le attività didattiche della Facoltà di Ingegneria dell'Università degli Studi di Trento; per un sistema di coordinamento delle operazioni di recupero dispersi in ambiente montano(SAR). Inoltre, in collaborazione con INSULA SpA, braccio operativo del Comune di Venezia per la manutenzione urbana, le infrastrutture e l'edilizia, ho integrato differenti basi dati per la gestione dei servizi urbani, acquisendo competenze nella progettazione e nella realizzazione di database relazionali con estensione geografica verificando l'interoperabilità tra GIS liberi, free, open souce e proprietari.
+        \\Fino al 2005 ho collaborato come co-autore, docente ed esercitatore nel corso \textit{Grass Free ed Open Source GIS e geodatabase teoria ed applicazioni} (dalla terza alla dodicesima edizione) presso l'Università di Trento e l'Università di Genova. Al FOSS4G2006 di Losanna (CH) sono stato co-autore ed esercitatore del workshop \textit{GRASS GIS and external RDBMS}. 
+        Nel 2006 sono stato esercitatore del corso \textit{Ortofotocarte da immagini satellitari ad alta risoluzione: metodologie, applicazioni e problemi} all'Università la Sapienza di Roma.}
     \end{entrylist}
     
-    \section{Capacità e competenze}
-        Realizzo codici informatici in numerosi linguaggi di programmazione e di scripting sia \textit{general purpose} (C), sia orientato a:
-        \begin{description}[labelindent= 1em, labelsep*=0.5em, leftmargin=!, style= standard, font=\normalfont\textit]
-            \item[statistica:] R, Stan, Julia;
-            \item[web:] php, CSS, HTML, Mapscript e JavaScript (ECMA-262);
-            \item[database:] SQL:2011;
-            \item[testi:] \hologo{LaTeX}, Markdown;
-            \item[sistemi complessi:] Netlogo, GAML.
-        \end{description}
+    \section{Capacità e competenze professionali}
+        Durante il mio percorso formativo e professionale ho acquisito e sviluppato esperienze ed abilità in diversi ambiti:
+        
+        \begin{itemize}[label=\textendash]
+            \item realizzo \textbf{codici informatici} in numerosi linguaggi di programmazione e di \textbf{scripting} sia \textit{general purpose} (C), sia orientati a:
+            \begin{description}[labelindent= 1em, labelsep*=0.5em, leftmargin=!, style= standard, font=\normalfont\textit]
+                \item[statistica:] R, Stan, gstat, Julia;
+                \item[web:] php, CSS, HTML, Mapscript e JavaScript (ECMA-262);
+                \item[database:] SQL:2011;
+                \item[testi:] \hologo{LaTeX}, Markdown;
+                \item[sistemi complessi:] Netlogo, GAML.
+            \end{description}
         %Per lo sviluppo di codice orientato alla statistica utilizzo R, Stan, e Julia; per quello \textit{general purpouse} ho utilizzo C; per la programmazione  \textit{web oriented} utlizzo php, CSS, HTML, Mapascript e javaScript (ES5); per la gestione dei database utilizzo SQL; per la scrittura e la creazione automatica di testi utilizzo \LaTeX~e (R)Markdown; e per la modellazione multiagente utilizzo NetLogo e GAMA.
-        
-        Ho una conoscenza approfondita dei Sistemi e delle tecnologie Informative Geografiche (Qgis, GRASS, PostGIS e Mapserver) e dei database relazionali (PostgreSQL e MySQL). 
-        
-        Il coordinato il primo seminario "L'agroecologia del vigneto" tenutosi il 16 novembre 2017 a San Michele all'Adige nell'ambito degli eventi sul territorio del triveneto "Per una Viticoltura agroecologica" e la giornata tecnica "Droni e agricoltura: esperienze formative e applicazioni tecniche" tenutosi a San Michele all'Adige il 25 gennaio 2018.
-        
-        Ho partecipato alla stesura di numerosi progetti europei di cui  LIFE 2015, un Alpine Space, un Central Europe, un PRIMA-MED, un "L.P. 6/99" ed un PEI mantenedo una rete di contatti con enti locali, nazionali e d internazionali che comprende la Provincia Autonoma di Trento, HIT Trentino, Trentino Sviluppo, STEP Fraunhofer Italia Research, EIT Digital, Università di Roma la Sapienza, Università di Limoges, CREA, CIRAD, CERVIM, ITLA, ItalFly, Optoi Microelectronics, EOPTIS, BTLabs Russia, Termodrone, Università di Gaisenheim ed Università de La Laguna.
-        
-        Sono in possesso dell'attestato di pilota APR (I.APRA.006010) per la classe VL/MC conseguito in data 30 novembre 2017.
-        
-        Sono rappresentante sindacale dei lavoratori della Fondazione Edmund Mach iscritti alla Confederazione Generale Italiana del Lavoro (CGIL) e delegato al congresso della Funzione Pubblica CGIL del Trentino.
-        
-        Inoltre, sono membro della Free Software Foundation, Sommelier e socio dell'Associazione Italiana Sommelier (AIS) e socio dell'Associazione Nazionale Assaggiatori Grappa (ANAG).
-        
-        Dal 2005 al 2017 sono stato iscritto all'Ordine degli Ingegneri della Provincia di Trento, Ing. civile e ambientale, industriale e dell'informazione. Iscr. Albo n. 2912 - Sezione A degli Ingegneri. 
-        
+            \item Ho una conoscenza approfondita dei \textbf{Sistemi e delle Tecnologie Informative Geografiche} (Qgis, GRASS, PostGIS e Mapserver, Pix4D) e dei \textbf{database relazionali} (PostgreSQL e MySQL) e, nel lavoro utilizzo prevalentemente Software Free e Open Source e sono \textbf{membro della Free Software Foundation}.
+            \item Ho esperienza nell'\textbf{oganizzazione di seminari tecnici}, ho infatti coordinato il primo seminario "L'a\-gro\-e\-co\-lo\-gi\-a del vigneto" tenutosi il 16 novembre 2017 a San Michele all'Adige nell'ambito degli eventi sul territorio del triveneto "Per una Viticoltura agroecologica" e la giornata tecnica "Droni e agricoltura: esperienze formative e applicazioni tecniche" tenutosi a San Michele all'Adige il 25 gennaio 2018.
+            \item Ho esperienza nella \textbf{stesura di progetti europei}. In questi anni ho contribuito alla redazione di LIFE 2015, Alpine Space, Central Europe, PRIMA-MED, "L.P. 6/99" e PEI. Queste attività mi hanno permesso la \textbf{creazione di una rete di contatti} con enti locali, nazionali e d internazionali che comprende la Provincia Autonoma di Trento, HIT Trentino, Trentino Sviluppo, STEP Fraunhofer Italia Research, EIT Digital, Università di Roma la Sapienza, Università di Limoges, CREA, CIRAD, CERVIM, ITLA, ItalFly, Optoi Microelectronics, EOPTIS, BTLabs Russia, Termodrone, Università di Gaisenheim ed Università de La Laguna.
+            \item Sono in possesso dell'attestato di \textbf{pilota APR} (I.APRA.006010) per la classe VL/MC conseguito in data 30 novembre 2017.
+            \item Sono \textbf{rappresentante sindacale} dei lavoratori della Fondazione Edmund Mach iscritti alla Confederazione Generale Italiana del Lavoro (CGIL) e delegato al congresso della Funzione Pubblica CGIL del Trentino.
+            \item Sono \textbf{Sommelier} e socio dell'Associazione Italiana Sommelier (AIS) e socio dell'Associazione Nazionale Assaggiatori Grappa (ANAG).
+            \item Dal 2005 al 2017 sono stato iscritto all'\textbf{Ordine degli Ingegneri della Provincia di Trento}, Ing. civile e ambientale, industriale e dell'informazione. Iscr. Albo n. 2912 - Sezione A degli Ingegneri. 
+        \end{itemize}
+
+        \section{Capacità e competenze linguistiche}
         \begin{table}[h]
         \centering
         \fontsize{8}{9}\selectfont
@@ -114,7 +140,7 @@
                 \textbf{Tedesco}  & \phantom{ab} & A2 & \phantom{a} & Livello elementare & \phantom{ab} & A2 & \phantom{a} & Livello elementare & \phantom{ab} & A2 & \phantom{a} & Livello elementare & \phantom{ab} & A2 & \phantom{a} & Livello elementare & \phantom{ab} & A2 & \phantom{a} & Livello elementare\\
                 \bottomrule
             \end{tabular}
-            \caption*{\addfontfeature{Color=lightgray}\small Autovalutazione delle competenze linguistiche secondo il "Quadro europeo di riferimento per le lingue"}
+            \caption*{\fontsize{9}{10}\selectfont Autovalutazione delle competenze linguistiche secondo il "Quadro europeo di riferimento per le lingue"}
         \end{table}
 
     \section{Corsi e certificazioni}
@@ -131,7 +157,7 @@
     
     \begin{entrylist}
     \entry
-        {2018}{Fondazione Edmund Mach}{-}{\emph{Fotogrammetria aerea, rilievi topografici ed architettonici con drone}}
+        {2018}{Fondazione Edmund Mach}{ItlaFLY}{\emph{Fotogrammetria aerea, rilievi topografici ed architettonici con drone}}
     \end{entrylist}
    
     \begin{entrylist}
@@ -166,7 +192,7 @@
 
     \begin{entrylist}
     \entry
-        {2015}{Fondazione Edmund Mach}{Hyperion Ltd.}{\emph{How to write a competitive proposal for Horizon 2020)}}
+        {2015}{Fondazione Edmund Mach}{Hyperion Ltd.}{\emph{How to write a competitive proposal for Horizon 2020}}
     \end{entrylist}
     
     \begin{entrylist}
@@ -222,31 +248,20 @@
     \entry
         {2000}{Repubblica Italiana}{Commissariato del Governo per la Priovincia di Bolzano}{\emph{Attestato di bilinguismo (Diploma di istituto di istruzione secondaria di primo grado)}}
     \end{entrylist}
-    
-    \section{Informazioni personali}
-    \begin{description}[style= unboxed, leftmargin= 6 pt, topsep= -3 pt, parsep= 3 pt, itemsep= 2pt]
-        \item[Data di nascita:] 14 luglio 1976
-        \item[Indirizzo:] Via Guardini, 63 - 38121 Trento (IT)
-        \item[Telefono:] 0461~615395
-        \item[Nazionalità:] italiana
-        \item[Madrelingua:] italiano
-    \end{description}
-    
-    
+    \newpage
     \section{Pubblicazioni}
-    \vspace{-0.75cm}
     \begin{refsection}
         \nocite{*}
         \newrefcontext[sorting=ydnt]
         \printbibliography[type=article, title={Riviste peer-review}, heading=subbibliography, notkeyword=divulgative]
     \end{refsection}
-    
+    \vspace{2mm}
     \begin{refsection}
         \nocite{*}
         \newrefcontext[sorting=ydnt]
         \printbibliography[type=incollection, notkeyword=report, title={Capitoli di libro}, heading=subbibliography]
     \end{refsection}
-        
+    \vspace{2mm} 
     \begin{refsection}
         \nocite{*}
         \newrefcontext[sorting=ydnt]
