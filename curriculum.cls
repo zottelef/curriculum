@@ -110,13 +110,14 @@
 % Bibliography %
 %%%%%%%%%%%%%%%%
 \RequirePackage{csquotes}
-\RequirePackage[style=verbose, maxnames=99, sorting=ydnt]{biblatex}
+\RequirePackage[style=verbose, maxnames=99, sorting=ydnt, language=english]{biblatex}
 \renewcommand*{\revsdnamepunct}{}
 \DeclareFieldFormat[article]{title}{#1\par}
 \DeclareFieldFormat[inproceedings]{title}{#1\par}
 \DeclareFieldFormat[incollection]{title}{#1\par}
 %\DeclareFieldFormat[misc]{title}{#1\par}
 %\DeclareFieldFormat[report]{title}{#1\par}
+
 
 \DeclareBibliographyDriver{article}{%
     \printnames{author}
