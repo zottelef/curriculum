@@ -120,7 +120,8 @@
 %\DeclareFieldFormat[report]{title}{#1\par}
 
 
-\DeclareBibliographyDriver{article}{%
+\DeclareBibliographyDriver{article}{
+
     \printnames{author}
     \newblock%
     {
@@ -140,12 +141,11 @@
     \setunit*{\addcomma\space}%
     %\printfield{year}%
     \newunit%
-    \vspace{2.5 mm}
   }
-  %\par\vspace{0.1\baselineskip}
 }
 
 \DeclareBibliographyDriver{inproceedings}{%
+
   \printfield{title}%
   \newblock%
   \printnames{author}%
@@ -163,8 +163,8 @@
     \setunit{\addcomma\space}%
     \printlist{location}%
     \newunit%
-    \vspace{2.5 mm}
   }
+  \par\vspace{0.3\baselineskip}
   %\par\vspace{0.1\baselineskip}
 }
 
@@ -189,6 +189,7 @@
 % }
 
 \DeclareBibliographyDriver{incollection}{%
+
   \printfield{title}%
   \newblock%
   \printnames{author}%
@@ -206,8 +207,8 @@
     \setunit{\addcomma\space}%
     \printlist{location}%
     \newunit
-    \vspace{2.5 mm}
   }
+\par\vspace{0.3\baselineskip}
   %\par\vspace{0.1\baselineskip}
 }
 
